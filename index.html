@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Since You Said Yes 💖</title>
+  <title>💖</title>
   <style>
     :root{
       --bg1: #ffdde1;
@@ -81,13 +81,13 @@
 </head>
 <body>
   <div class="card" role="main">
-    <h1>Since I asked you to be my girlfriend 💘</h1>
-    <p class="lead">Counting every day, hour, minute and second since that moment.</p>
+    <h1>Cat timp a trecut de cand suntem impreuna 💘</h1>
+    <p class="lead">Acesta este doar ineputul</p>
 
     <!-- Set the start datetime in the data-start attribute.
          Use an ISO timestamp (preferred) like "2024-06-15T20:30:00Z"
          or a local time like "2024-06-15T20:30:00" (interpreted as local timezone). -->
-    <div id="countdown" data-start="2024-06-15T20:30:00Z" aria-live="polite">
+    <div id="countdown" data-start="2025-11-07T21:00:00Z" aria-live="polite">
       <div class="countdown">
         <div class="unit"><div class="num" id="days">0</div><div class="label">Days</div></div>
         <div class="unit"><div class="num" id="hours">0</div><div class="label">Hours</div></div>
@@ -98,7 +98,6 @@
     </div>
 
     <footer>
-      Tip: edit the date inside the page to match the time you asked her. This is a static page that the browser updates every second.
     </footer>
   </div>
 
@@ -132,7 +131,7 @@
           // show a "until" style countdown if desired (could swap labels)
         } else {
           const options = { year: 'numeric', month: 'short', day: 'numeric', hour:'2-digit', minute:'2-digit' };
-          sinceTxt.textContent = 'Started on ' + start.toLocaleString(undefined, options);
+          sinceTxt.textContent = 'Totul a inceput pe ' + start.toLocaleString(undefined, options) + 'cand am avut primul nostru date. ';
         }
 
         const days = Math.floor(diff / 86400);
